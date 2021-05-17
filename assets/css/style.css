@@ -1,0 +1,116 @@
+/* Navbar */
+
+
+.navbar {
+
+    background-color:transparent !important; 
+}
+
+.navbar-brand {
+    font-size: 60 px; 
+    font-family: "Raleway"; 
+    font-weight : bold; 
+    position:left;
+
+}
+
+.navbar-nav {
+    position:right; 
+    font-family:"Raleway";
+}
+
+/* Hero Section */
+
+
+#carouselExampleControls {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+}
+
+/* Quienes somos*/
+
+#Quienes-Somos {
+
+    background-color: black;
+    color: white;
+
+    }
+    
+    #Quienes-Somos hr {
+        width:115px;
+        height: 3px;
+        color: cyan;
+    
+    }
+    
+    #Quienes-Somos h4, #Quienes-Somos div:last-child {
+        font-family: "Raleway";
+        line-height: 3; 
+    }
+    
+    #Quienes-Somos h4{
+        font-weight: 600; 
+        margin-left: 10px;
+    }
+
+
+/* Destacados */
+
+#Destacados {
+
+    background-color:black; 
+}
+
+#Destacados div h1{
+    font-size: 56 px; 
+    font-weight: bold;
+
+}
+
+#Destacados div hr{
+    width: 110 px;
+    height: 4px;
+    font-family:"Raleway";
+}
+
+#Destacados h4{
+    font-family: "Raleway";
+}
+
+
+.card-deck .card {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 100%;
+      }
+      
+      
+        @media (min-width: 1000px) {
+            .card-deck .card {
+                min-width: 20.1%;  /* 4 Columns */
+        }
+      }
+
+
+/* Contacto */
+
+#Contacto {
+  background-color:black;
+  color: white;
+
+}
+
+
+/*Footer*/
+
+#Footer {
+    background-color:cyan;
+}
+
+#Footer h1{
+    font-family:"Raleway";
+}
